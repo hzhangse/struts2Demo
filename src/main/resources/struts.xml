@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.i18n.reload" value="false" />
+	<constant name="struts.devMode" value="false" />
+
+	<!--  
+	<include file="first-struts.xml"></include>
+	<include file="intercept-struts.xml"></include>
+	<include file="loginIntercept-struts.xml"></include>
+	<include file="struts-i18n.xml"></include>
+	<include file="chain-struts.xml"></include>
+	-->
+	<include file="module/rest-struts.xml"></include>
+</struts>
